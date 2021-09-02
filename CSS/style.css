@@ -1,7 +1,11 @@
 /* BODY Section */
 body{
-     width: 360px;
-     overflow: hidden;
+     height: 100%;
+     position: relative;
+     background-image: url(../Image/vector-left.svg), url(../Image/vector-right.svg);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: -250px 150px, 200px 370px;
 }
 
 /* HEADER Section */
@@ -37,8 +41,13 @@ body header .container .menu .header-menu ul li{
 /* ////////////////////////////////////////////////// */
 
 /* MAIN Section */
-body main{
-
+body main section{
+     /* height: 100%;
+     position: relative;
+     background-image: url(../Image/vector-left.svg), url(../Image/vector-right.svg);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     background-position: -170px 100px, 200px 370px; */
 }
 /* MAIN | Images */
 body main .container .cup{
@@ -56,7 +65,7 @@ body main .vector.vector-left{
 }
 
 body main .vector.vector-right{
-     top: 350px; left: 50%;
+     top: 375px; left: 60%;
 }
 
 /* MAIN | Content */
@@ -72,7 +81,7 @@ body main section .container h2{
      font-weight: 400;
      line-height: 6vw;
      margin-top: 150px;
-     margin-bottom: 50px;
+     margin-bottom: 75px;
      text-align: center;
 }
 
@@ -86,9 +95,11 @@ body main section .container button{
      font-size: 15px;
      font-weight: 700;
 
+     cursor: pointer;
      border: none;
      border-radius: 10px;
      background-color: #d4bd25;
+     padding: 15px;
 }
 
 /* MAIN | Social Media */
@@ -98,11 +109,22 @@ body main section .container .social-media{
 }
 
 body main section .container .social-media a{
+     
+     font-style: normal;
+     font-weight: bold;
+     font-size: 18px;
+     line-height: 25px;
      text-decoration: none;
+     color: #000000;
+     display: block;
+     text-align: center;
+     max-width: 110px;
+     margin: 0 auto;
+     position: relative;
 }
 
 body main section .container .social-media li .fab{
      color: #d4bd25;
      font-size: 30px;
-     margin: 250px 5px;
+     margin: 200px 5px 0px 5px;
 }
