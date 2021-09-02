@@ -1,0 +1,108 @@
+/* BODY Section */
+body{
+     width: 360px;
+     overflow: hidden;
+}
+
+/* HEADER Section */
+body header{
+     text-align: center;
+     padding: 10px 0px 20px 0px;
+     box-shadow: 0px 5px 5px #25252545;
+     background-color: #ffe015;
+}
+
+/* HEADER Section | Logo */
+body header .container .container-logo .header-logo .logo img{
+     margin-top: 10px;
+}
+
+body header .container .container-logo .header-logo .logo figcaption{
+     display: none;
+}
+
+/* HEADER Section | Menu */
+body header .container .menu .header-menu ul{
+     display: flex;
+     justify-content: center;
+}
+
+body header .container .menu .header-menu ul li{
+     font-family: 'Baloo Tamma 2', sans-serif;
+     margin: 5px 10px 0px 10px;
+     cursor: pointer;
+}
+
+/* ////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////// */
+
+/* MAIN Section */
+body main{
+
+}
+/* MAIN | Images */
+body main .container .cup{
+     display: none;
+}
+
+body main .vector{
+     position: absolute;
+     height: 300px;
+     z-index: -1;
+}
+
+body main .vector.vector-left{
+     top: 150px; left: -40%;
+}
+
+body main .vector.vector-right{
+     top: 350px; left: 50%;
+}
+
+/* MAIN | Content */
+body main section{
+     width: 75%;
+     margin: auto;
+}
+
+body main section .container h2{
+     color: #646464;
+     font-family: 'Baloo Tamma 2', sans-serif;
+     font-size: 5vw;
+     font-weight: 400;
+     line-height: 6vw;
+     margin-top: 150px;
+     margin-bottom: 50px;
+     text-align: center;
+}
+
+body main section .container button{
+     height: 50px;
+     width: 260px;
+     padding: 0px;
+
+     color: #FFFFFF;
+     font-family: 'Baloo Tamma 2', sans-serif;
+     font-size: 15px;
+     font-weight: 700;
+
+     border: none;
+     border-radius: 10px;
+     background-color: #d4bd25;
+}
+
+/* MAIN | Social Media */
+body main section .container .social-media{
+     display: flex;
+     justify-content: center;
+}
+
+body main section .container .social-media a{
+     text-decoration: none;
+}
+
+body main section .container .social-media li .fab{
+     color: #d4bd25;
+     font-size: 30px;
+     margin: 250px 5px;
+}
