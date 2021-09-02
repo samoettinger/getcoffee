@@ -43,12 +43,7 @@ body header .container .menu .header-menu ul li{
 
 /* MAIN Section */
 body main section{
-     /* height: 100%;
-     position: relative;
-     background-image: url(../Image/vector-left.svg), url(../Image/vector-right.svg);
-     background-size: 100%;
-     background-repeat: no-repeat;
-     background-position: -170px 100px, 200px 370px; */
+
 }
 /* MAIN | Images */
 body main .container .cup{
@@ -78,9 +73,9 @@ body main section{
 body main section .container h2{
      color: #646464;
      font-family: 'Baloo Tamma 2', sans-serif;
-     font-size: 5vw;
+     font-size: 20px;
      font-weight: 400;
-     line-height: 6vw;
+     line-height: 30px;
      margin-top: 150px;
      margin-bottom: 75px;
      text-align: center;
