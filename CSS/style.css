@@ -62,7 +62,7 @@ body main .vector.vector-right{
 
 /* MAIN | Content */
 body main section{
-     width: 75%;
+     width: 250px;
      margin: auto;
 }
 
@@ -80,7 +80,7 @@ body main section .container h2{
 body main section .container button{
      height: 50px;
      width: 260px;
-     padding: 0px;
+     padding: 15px;
 
      color: #FFFFFF;
      font-family: 'Baloo Tamma 2', sans-serif;
@@ -91,7 +91,6 @@ body main section .container button{
      border: none;
      border-radius: 10px;
      background-color: #d4bd25;
-     padding: 15px;
 }
 
 /* MAIN | Social Media */
