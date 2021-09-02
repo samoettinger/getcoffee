@@ -1,0 +1,122 @@
+@media screen and (min-width:800px) {
+     
+     body{
+          background-position: -300px 150px, 850px 370px;
+          background-repeat: no-repeat;
+          background-size: 50%;
+     }
+
+     /* HEADER Section | Container */
+     body header .container{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 0px 20%;
+     }
+
+     /* ////////////////////////////////////////////////// */
+     /* ////////////////////////////////////////////////// */
+
+     /* MAIN Section | Container */
+     body main section{
+          height: 250px;
+          width: 800px;
+          margin-top: 200px;
+          
+          display: flex;
+          flex-direction: row-reverse;
+          justify-content: space-between;
+          align-items: flex-start;
+     }
+
+     /* MAIN Section | Content */
+     body main section .cup{
+          position: initial;
+          visibility: visible;
+          height: 200px;
+     }
+
+     body main section .container{
+          display: flex;
+          flex-direction: column;
+          width: 50%;
+     }
+     
+     body main section .container h2{
+          font-size: 20px;
+          line-height: 25px;
+          
+          margin-top: 0px;
+          margin-bottom: 30px;
+          margin-right: auto;
+          margin-left: auto;
+          padding: 0%;
+     }
+
+     body main section .container button{
+          height: 60px;
+          width: 100%;
+          margin: auto;
+
+          font-size: 20px;
+     }
+
+     /* MAIN Section | Social Media */
+     body main section .container .social-media{
+          display: flex;
+          width: 300px;
+          margin: auto;
+          justify-content: flex-start;
+     }
+
+     body main section .container .social-media li a{
+          text-align: start;
+     }
+
+     body main section .container .social-media li .fab{
+          font-size: 20px;
+          margin: 10px 5px 0px 5px;
+     }
+
+     /* ////////////////////////////////////////////////// */
+     /* ////////////////////////////////////////////////// */
+
+     /* FOOTER Section */
+     body footer a{
+          color: #29241d;
+          font-size: 15px;
+          font-weight: bold;
+          line-height: 25px;
+          text-decoration: none;
+          max-width: 110px;
+          position: relative;
+          text-align: center;
+          display: block;
+          margin: 200px auto 0px auto;
+     }
+
+     body footer a::before{
+          width: 5px;
+          height: 7px;
+          background: #FFFFFF;
+          border-radius: 50px;
+          margin: 0 auto;
+          position: absolute;
+          bottom: 20px;
+          left: 50%;
+          right: 50%;
+          transform: translate(-50%, -50%);
+          content: "'";
+          color: #FCA60F;
+     }
+
+     body footer a::after{
+          content: "";
+          display: block;
+          width: 20px;
+          height: 35px;
+          background: #FCA60F;
+          border-radius: 50px;
+          margin: 9px auto 0;
+     }
+}
